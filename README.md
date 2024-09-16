@@ -31,7 +31,6 @@ We have a dataset with gray-scale images of 96x96 pixels consisting of the x and
 4. **Build deep residual neural network facial feature detection model**
 5. Compile and train primary facial features detection deep learning model
 6. Assess trained key facial features detection model performance
-<br />
 # Part 2 - Facial Expression Detection:
 In this section, we will train a model to take images as input and classify people's emotions. We have data that contains images belonging to 5 categories:
 1. 0 = Anger
@@ -41,6 +40,10 @@ In this section, we will train a model to take images as input and classify peop
 5. 4 = Surprise
 This is a classification problem, classifying people's expressions into 5 categories.
 
-Our input images will be of 48x48 pixels. Our classifier, a deep learning model, will feed in the images and classify the facial expressions into their corresponding emotion categories.
-
+Our input images will be of 48x48 pixels. Our classifier, a deep learning model, will feed in the images and classify the facial expressions into their corresponding emotion categories. We will perform the following steps:
+1. Exploratory data analysis
+2. Visualize images and plot labels for expression detection
+3. Image augmentation and training data preparation
+4. Build and train deep learning model for facial expression classification
+5. Assess the performance of trained facial expression classifier model
 
