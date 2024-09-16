@@ -47,3 +47,5 @@ Our input images will be of 48x48 pixels. Our classifier, a deep learning model,
 4. Build and train deep learning model for facial expression classification
 5. Assess the performance of trained facial expression classifier model
 
+Important to note: Many datasets and models were very large in size and so have not been added to the repository.
+
